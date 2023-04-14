@@ -17,7 +17,7 @@ const Cart = ({list, setList, handleChange}) => {
         const arr = list.filter((elment)=>elment.id !== id);
         setList(arr);
     }
-
+/* useeff */
     useEffect(()=>{
         handlePrice();
     })
